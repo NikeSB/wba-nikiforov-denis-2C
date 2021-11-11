@@ -1,0 +1,52 @@
+p.center {
+    text-align: center;
+    color: red;
+  }
+*{
+    text-align: center;
+ 
+}
+div p{
+    text-align: right;
+    color: green;
+}
+div + p {
+    background-color: yellow;
+    text-align: left;
+  }
+  div ~ p {
+    background-color: red;
+  }
+  p:hover {
+    color: #FF00FF;
+  }
+  a:link {
+    color: #FF0000;
+  }
+  a:visited {
+    color: #00FF00;
+  }
+
+  p.cool {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div.texty:hover p {
+    display: block;
+  }
+  p.help::first-line {
+    color: bisque;
+    font-variant: small-caps;
+    font-size: large;
+  }
+  p::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("smiley.jpg") no-repeat 0 0;
+    background-size: 100%;
+  }
