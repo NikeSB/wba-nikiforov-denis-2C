@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: greenyellow;
+    padding: 100px;
+
+  }
+  .flex-items {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: red;
+    padding: 10px;
+  }
+  
+.wrapper{
+    border: 2px red solid;
+}
+.wrapper p{
+    border: 2px green;
+}
