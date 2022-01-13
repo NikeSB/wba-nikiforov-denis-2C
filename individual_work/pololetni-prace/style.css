@@ -46,6 +46,8 @@
     
 }
 .gif{
+   
+    mix-blend-mode: screen;
 
     opacity: 90%;
 }
@@ -57,4 +59,10 @@ a:link, a:visited {
 }
 a:hover {
     color: grey;
+    text-shadow: rgba(90, 51, 247, 0.2);
+}
+.bodys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
