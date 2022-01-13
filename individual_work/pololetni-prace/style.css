@@ -1,0 +1,60 @@
+.head{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    z-index: 1;    
+
+
+
+
+    background-color: rgba(90, 51, 247, 0.2);
+    
+    
+}
+.content{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+.flex-items{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+    
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    mix-blend-mode: soft-light;
+    
+    
+}
+.gif{
+
+    opacity: 90%;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:white;
+}
+a:hover {
+    color: grey;
+}
