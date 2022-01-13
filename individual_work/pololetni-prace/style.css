@@ -48,6 +48,9 @@
 .gif{
    
     mix-blend-mode: screen;
+    filter: saturate(30%);
+    filter: drop-shadow(200%);
+ 
 
     opacity: 90%;
 }
