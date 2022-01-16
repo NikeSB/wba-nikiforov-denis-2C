@@ -10,7 +10,8 @@
 
 
 
-    background-color: rgba(90, 51, 247, 0.2);
+    background-color: rgba(90, 51, 247, 0.1);
+    box-shadow: 1px 1px 30px rgba(90, 51, 247);
     
     
 }
@@ -46,10 +47,14 @@
     
 }
 .gif{
+    display: flex;
    
     mix-blend-mode: screen;
     filter: saturate(30%);
     filter: drop-shadow(200%);
+    width: 60%;
+    height: 60%;
+    
  
 
     opacity: 90%;
@@ -65,7 +70,82 @@ a:hover {
     text-shadow: rgba(90, 51, 247, 0.2);
 }
 .bodys{
+
+
+
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.homebutton{
+    width:100px; /* you can use % */
+    height: auto;
+
+}
+.homebutton:hover{
+    filter: brightness(60%);
+    text-shadow: rgba(90, 51, 247, 0.2);
+}
+
+.text-header{
+    font-size: 4rem;
+    color: white;
+
+}
+.box{
+    display: flex;
+
+
     justify-content: center;
     align-items: center;
+    min-height:60vh;
+
+
+
+  }
+  .text1{
+    padding: 25px 25px 0px;
+    font-size: 2rem;
+    text-align: start;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    align-items: flex-start;
+    white-space:nowrap;
+
+    text-overflow:ellipsis;
+  }
+  .text2{
+    padding: 25px 25px 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content: flex-start;
+
+  }
+  .flex-middle{
+   
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+   
+    box-shadow: 1px 1px 18px white;
+    background-color: white;
+
+  }
+  .bottom{
+    margin-bottom: auto;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-self: baseline;
+    z-index: 1;    
+
+
 }
