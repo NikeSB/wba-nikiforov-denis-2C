@@ -1,0 +1,28 @@
+$textshadow: 1px 1px 30px rgba(90, 51, 247, 0.1);
+@import "head";
+@import "content";
+@import "design";
+@import "text";
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:60vh;
+  }
+.flex-middle{
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px white;
+    background-color: white;
+  }
+.bottom{
+    margin-bottom: auto;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+    z-index: 1;    
+}

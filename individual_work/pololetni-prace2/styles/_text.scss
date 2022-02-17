@@ -1,0 +1,23 @@
+.text-header{
+    font-size: 4rem;
+    color: white;
+}
+.text1{
+    padding: 25px 25px 0px;
+    font-size: 2rem;
+    text-align: start;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+  }
+.text2{
+    padding: 25px 25px 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }

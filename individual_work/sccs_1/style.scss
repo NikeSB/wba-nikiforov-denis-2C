@@ -1,0 +1,17 @@
+@import "contet";
+$main-color: #ffdc14;
+
+
+body{
+    background-color: $main-color;
+}
+
+.content{
+    background-color: yellowgreen;
+    p{
+        padding: 2rem;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
+

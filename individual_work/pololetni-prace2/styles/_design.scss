@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:white;
+}
+a:hover {
+    color: grey;
+    text-shadow: $textshadow;
+}
+
+.homebutton{
+    width:100px; /* you can use % */
+    height: auto;
+}
+.homebutton:hover{
+    filter: brightness(60%);
+    text-shadow: $textshadow;
+}

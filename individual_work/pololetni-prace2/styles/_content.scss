@@ -1,0 +1,41 @@
+.content{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-items{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    mix-blend-mode: soft-light;
+}
+.gif{
+    display: flex;
+    mix-blend-mode: screen;
+    filter: saturate(30%);
+    filter: drop-shadow(200%);
+    width: 60%;
+    height: 60%;
+    opacity: 90%;
+}
+.bodys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

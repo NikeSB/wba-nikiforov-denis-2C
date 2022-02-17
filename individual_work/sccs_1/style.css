@@ -1,0 +1,14 @@
+body {
+  background-color: #ffdc14;
+}
+
+.content {
+  background-color: yellowgreen;
+}
+
+.content p {
+  padding: 2rem;
+  color: black;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
