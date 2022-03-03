@@ -91,16 +91,45 @@ select {
   display: flex;
   width: 100vw;
   height: 58rem;
-  background-color: black;
+  background-image: url("../images/hero image.png");
+  background-size: 100% 100%;
 }
 
 .body_two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
   height: 58rem;
   background-color: white;
+}
+
+.boximage3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boximage3 img {
+  max-width: 21.875rem;
+  margin: 2.15277777778vw;
+  min-width: none;
+  width: 24vw;
+  max-height: 21.875rem;
+  height: 24vw;
+  min-height: none;
 }
 
 .footer {

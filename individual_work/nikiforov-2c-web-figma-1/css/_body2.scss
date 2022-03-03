@@ -1,7 +1,27 @@
 .body_two{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     width: 100vw;
     height: 58rem;
     background-color: white;
+
 }
+.boximage3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.boximage3 img {
+    max-width:21.875rem ;
+    margin: 2.15277777778vw;
+    min-width: none;
+    width: 24vw;
+    max-height: 21.875rem;
+    height: 24vw;
+    min-height: none;
+
+  }
