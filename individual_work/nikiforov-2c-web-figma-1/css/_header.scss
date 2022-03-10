@@ -1,7 +1,54 @@
+.logo{
+ 
+    display: absolute;
+    padding-left: 11.319vw;
+}
 .header{
     display: flex;
+    
+ 
 
     width: 100vw;
-    height: 9rem;
+    height: 7.14285vh;
+    min-height: 150px;
     background-color: #CBC1B1;
+}
+
+.header2{
+    display: flex;
+    
+ 
+
+    width: 100vw;
+    height: 14.6484375vh;
+    min-height: 150px;
+    background-color: #CBC1B1;
+}
+
+.header-items{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+  align-items: center;
+  margin-right: 10%;
+  
+
+
+}
+.header-item{
+    display: flex;
+    
+
+
+    padding-right: 2%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
