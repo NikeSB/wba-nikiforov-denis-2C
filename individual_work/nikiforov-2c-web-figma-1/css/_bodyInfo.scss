@@ -2,6 +2,7 @@
 .bodyinfo{
     height:70.703125vh;
     background-color: #E5E5E5;
+
 }
 .small-images{
 
@@ -72,4 +73,79 @@ text-transform: uppercase;
     grid-row:2;
     grid-column-start: 3;
     grid-column-end: 3;
+}
+.grid2{
+    display: grid;
+    padding-left: 29vw;
+    padding-right: 18.55vw;
+    padding-top: 2vh;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 5vh;
+}
+.input-text{
+    background-color: rgba($color: #7C7474 , $alpha: 0.3);
+
+    font-family: 'Lato';
+   font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    min-width: 100%;
+    min-height: 100%;
+}
+.grid2-item{
+   
+    display: flex;
+
+
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.grid2-item:nth-child(1){
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end:  1;
+}
+.grid2-item:nth-child(2){
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end:  2;
+}
+.grid2-item:nth-child(3){
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end:  1;
+}
+.grid2-item:nth-child(4){
+    grid-row:2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.grid2-item:nth-child(5){
+    grid-row:3;
+    grid-row: span 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.contact{
+    padding-left: 43vw;
+    padding-top: 4vh;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.top{
+   margin-top: 3vh; 
 }

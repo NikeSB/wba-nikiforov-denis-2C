@@ -30,6 +30,8 @@
   flex-direction: row-reverse;
   flex-grow: 1;
   align-items: center;
+  
+
   margin-right: 10%;
   
 
@@ -37,10 +39,15 @@
 }
 .header-item{
     display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin: 1%;
     
 
 
-    padding-right: 2%;
+ 
+    height: 5vh;
+    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -51,4 +58,14 @@
 
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+.hover{
+    
+    background-color: rgba($color: #7C7474, $alpha: 0.5);
+};
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:black;
 }
