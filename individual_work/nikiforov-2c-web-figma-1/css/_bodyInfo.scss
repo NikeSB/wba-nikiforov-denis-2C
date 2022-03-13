@@ -8,6 +8,8 @@
 
    height: 9.76vh;
    width: 9.76vh;
+   min-width: 50px;
+   min-height: 50px;
 }
 .auto{
     height: fit-content;
@@ -17,7 +19,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1vw;
     line-height: 22px;
 /* identical to box height */
     color: #000000;
@@ -148,4 +150,128 @@ color: #000000;
 }
 .top{
    margin-top: 3vh; 
+}
+@media screen and (max-width: 768px) {
+    .small-images{
+        
+
+        height: 18vw;
+        width: 18vw;
+        min-width: 20px;
+        min-height: 20px;
+     }
+    .bodyinfo{
+        height: 950px;
+
+    }
+    .grid{
+        padding-left: 30vw;
+        padding-right: 0vw;
+        padding-top: 15vh;
+
+        display: grid;
+    
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 10vw;
+    }
+    .grid-item:nth-child(1){
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid-item:nth-child(2){
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid-item:nth-child(3){
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid-item:nth-child(4){
+        grid-row:4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .grid-item:nth-child(5){
+        grid-row:5;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .grid-item:nth-child(6){
+        grid-row:6;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .textsigns{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        
+        line-height: 22px;
+    /* identical to box height */
+        color: #000000;
+    
+    
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+    .grid2{
+        display: grid;
+        padding-left: 18vw;
+        padding-right: 18.55vw;
+        padding-top: 11vh;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 2vh;
+    }
+    .grid2-item:nth-child(1){
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid2-item:nth-child(2){
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid2-item:nth-child(3){
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end:  1;
+    }
+    .grid2-item:nth-child(4){
+        grid-row:4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .grid2-item:nth-child(5){
+        grid-row:5;
+        grid-row: span 7;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .contact{
+        padding-left: 35vw;
+        padding-top: 20vh;
+     
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+        
+
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+
 }
