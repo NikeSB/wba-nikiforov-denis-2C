@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer{
     
     display: flex;
@@ -11,7 +13,7 @@
     margin-top: 15vh;
 
     min-height: 150px;
-    background-color: #CBC1B1;
+    background-color: $headfoorcolor;
     
 }
 .footer2{
@@ -27,14 +29,14 @@
    height: 14.6484375vh;
 
     min-height: 150px;
-    background-color: #CBC1B1;
+    background-color: $headfoorcolor;
     
 }
 .footer-items{
  
     align-self: center;
-    font-family: 'Lato';
-    font-style: normal;
+    @include font();
+
     font-weight: 500;
     font-size: 12px;
  
@@ -42,7 +44,6 @@
 
    
     letter-spacing: 0.1em;
-    text-transform: uppercase;
 
     color: #000000;
 }
@@ -57,7 +58,7 @@
         height: 14.6484375vh;
     
         min-height: 150px;
-        background-color: #CBC1B1;
+        background-color: $headfoorcolor;
         
     }
  }

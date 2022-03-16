@@ -1,3 +1,25 @@
+@import 'variables';
+
+@mixin text-corrextion {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 3.5vw;
+line-height: 58px;
+display: flex;
+align-self: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+  }
+
+  @mixin font {
+    font-family: 'Lato';
+    font-style: normal;
+    text-transform: uppercase;
+      }
+    
+
 .size{
     height: 2100px;
 }
@@ -35,17 +57,8 @@
 height: auto;
 width: auto;
 margin: 1%;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 3.5vw;
-line-height: 58px;
-display: flex;
-align-self: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-
-color: #F8F7EC;
+@include text-corrextion();
+color: $defaultcolor;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 text-overflow: clip;
@@ -70,7 +83,7 @@ text-overflow: clip;
     justify-self: center;
     letter-spacing: 0.1em;
     
-    color: #F8F7EC;
+    color: $defaultcolor;
     
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -87,17 +100,16 @@ text-overflow: clip;
     width: 180px;
     height: 55px;
     margin: auto;
-    font-family: 'Lato';
-    font-style: normal;
+    @include font();
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
+
     text-align: center;
     align-items: center;
     
-    color: #F8F7EC;
+    color: $defaultcolor;
     background: #7C7474;
     overflow: hidden;
     text-overflow: ellipsis; // This is where the magic happens
@@ -109,8 +121,8 @@ text-overflow: clip;
         width: 350px;
     }
     .text_one{
-        font-family: 'Lato';
-        font-style: normal;
+        @include font();
+
         font-weight: 700;
         font-size: 20px;
         line-height: 24px;
@@ -118,9 +130,9 @@ text-overflow: clip;
         align-items: center;
         text-align: center;
         letter-spacing: 0.1em;
-        text-transform: uppercase;
 
-        color: #F8F7EC;
+
+        color: $defaultcolor;
  
 
     }
@@ -134,7 +146,7 @@ text-overflow: clip;
         align-items: center;
         letter-spacing: 0.1em;
 
-color: #F8F7EC;
+        color: $defaultcolor;
     }
     .body_one{
         display: flex;
@@ -165,8 +177,8 @@ color: #F8F7EC;
         width: 120px;
         height: 25px;
         margin: auto;
-        font-family: 'Lato';
-        font-style: normal;
+        @include font();
+
         font-weight: 600;
         font-size: 11px;
         line-height: 13px;
@@ -175,7 +187,7 @@ color: #F8F7EC;
         justify-content: center;
     
         letter-spacing: 0.1em;
-        text-transform: uppercase;
+
         
         overflow: hidden;
         text-overflow: ellipsis; // This is where the magic happens

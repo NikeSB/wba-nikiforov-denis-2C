@@ -1,3 +1,5 @@
+@import 'variables';
+
 .logo{
  
     display: absolute;
@@ -11,7 +13,7 @@
     width: 100vw;
     height: 7.14285vh;
     min-height: 150px;
-    background-color: #CBC1B1;
+    background-color: $headfoorcolor;
 }
 
 .header2{
@@ -22,7 +24,7 @@
     width: 100vw;
     height: 14.6484375vh;
     min-height: 150px;
-    background-color: #CBC1B1;
+    background-color: $headfoorcolor;
 }
 
 .header-items{
