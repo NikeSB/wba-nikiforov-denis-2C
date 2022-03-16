@@ -553,7 +553,11 @@ a:link, a:visited {
     font-size: 1.5vw;
     line-height: 12px;
     letter-spacing: 0.1em;
+    margin-bottom: 5vh;
     color: #000000;
+  }
+  .body_two_text {
+    margin-bottom: 10vw;
   }
   .three-stripes {
     display: -webkit-box;
