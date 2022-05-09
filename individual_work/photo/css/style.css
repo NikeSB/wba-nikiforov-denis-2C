@@ -1,0 +1,53 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainone {
+  background: url(/individual_work/photo/Rectangle2.png) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.body2 {
+  background: url(/individual_work/photo/black.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.flexone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 25vw;
+  height: 50vh;
+  border-radius: 25px;
+  background-color: red;
+}
+
+.pic_one {
+  background: url(/individual_work/photo/person.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.pic_two {
+  background: url(/individual_work/photo/black.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
