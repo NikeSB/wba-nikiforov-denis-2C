@@ -10,7 +10,7 @@
 }
 
 .body2 {
-  background: url(/individual_work/photo/black.png) no-repeat center;
+  background: url(/individual_work/photo/4UvMiqH.webp) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
@@ -49,5 +49,20 @@
   background: url(/individual_work/photo/black.png) no-repeat center;
   background-size: cover;
   overflow: hidden;
+}
+
+.body3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carouselsize {
+  width: 40vw;
+  height: 30vh;
+}
+
+.cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
