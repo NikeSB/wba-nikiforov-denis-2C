@@ -3,10 +3,12 @@
     height: 100vh;
 }
 .carouselsize{
-    width: 40vw;
-    height: 30vh;
+    width: 10vw;
+    height: 10vh;
 }
-.cover{
-    object-fit: cover;
 
-}
+
+.w-100 {
+    width: 100% !important;
+    height: 35vh;
+  }
